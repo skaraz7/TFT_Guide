@@ -1,0 +1,31 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Permitir lectura pública de datos TFT
+    match /champions/{document} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    
+    match /items/{document} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    
+    match /traits/{document} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    
+    match /augments/{document} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    
+    // Composiciones de usuarios
+    match /compositions/{document} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+  }
+}
