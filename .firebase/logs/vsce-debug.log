@@ -1,0 +1,36 @@
+[debug] [2025-08-05T08:36:18.928Z] [Firebase Plugin] Activating Firebase extension.
+[debug] [2025-08-05T08:36:20.682Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-08-05T08:36:20.683Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[debug] [2025-08-05T08:36:20.696Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[debug] [2025-08-05T08:36:28.140Z] [Firebase Plugin] Value of process.env.MONOSPACE_ENV: undefined
+[debug] [2025-08-05T08:36:28.141Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-08-05T08:36:28.143Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[debug] [2025-08-05T08:36:28.168Z] [Firebase Plugin] Value of process.env.MONOSPACE_ENV: undefined
+[debug] [2025-08-05T08:36:28.168Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-08-05T08:36:28.169Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=458456343&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-08-05T08:36:32.427Z] [Firebase Plugin] Value of process.env.MONOSPACE_ENV: undefined
+[debug] [2025-08-05T08:36:32.427Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-08-05T08:36:32.429Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[debug] [2025-08-05T08:36:32.430Z] [Firebase Plugin] Value of process.env.MONOSPACE_ENV: undefined
+[debug] [2025-08-05T08:36:32.430Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-08-05T08:36:32.431Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[debug] [2025-08-05T08:36:36.501Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2025-08-05T08:36:36.502Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2025-08-05T08:36:36.987Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2025-08-05T08:36:36.988Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[info] [Firebase Plugin] (Core:Project) New user detected, fetching projects
+[debug] [2025-08-05T08:36:37.027Z] Checked if tokens are valid: true, expires at: 1754386595988
+[debug] [2025-08-05T08:36:37.027Z] Checked if tokens are valid: true, expires at: 1754386595988
+[debug] [2025-08-05T08:36:37.028Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-08-05T08:36:37.667Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-08-05T08:36:37.668Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
